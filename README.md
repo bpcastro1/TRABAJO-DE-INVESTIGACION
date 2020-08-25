@@ -74,10 +74,15 @@ Los aceleradores como las TPU están diseñados para ofrecer un rendimiento muy 
 
 <H3>5. DIAGRAMAS</H3>
 <p align="center"><img src="img/Estructura basica de una GPIO.png"/></p>
+<p align="justify">Estructura basica de los puertos GPIO.</b>
 <p align="center"><img src="img/Entrada digital.png"/></p>
+<p align="justify">Entrada digital de datos.</b>
 <p align="center"><img src="img/Salida digital.png"/></p>
+<p align="justify">Salida digital de datos.</b>
 <p align="center"><img src="img/Funcion alternativa.png"/></p>
+<p align="justify"><p align="justify">Funciones alternativas de los puertos GPIO.</b>
 <p align="center"><img src="img/Configuracion analogica.png"/></p>
+<p align="justify"><p align="justify">Configuracion analogica de los puertos GPIO.</b>
 
 <H3>6. LISTA DE COMPONENTES</H3>
 <p align="justify"><b>Raspberry Pi</b></p>

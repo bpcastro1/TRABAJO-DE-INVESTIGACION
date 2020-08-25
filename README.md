@@ -76,7 +76,7 @@ Los aceleradores como las TPU están diseñados para ofrecer un rendimiento muy 
 <p align="center"><img src="img/Estructura basica de una GPIO.png"/></p>
 <p align="center"><img src="img/Entrada digital.png"/></p>
 <p align="center"><img src="img/Salida digital.png"/></p>
-<p align="center"><img src="img/Funciones alternativas.png"/></p>
+<p align="center"><img src="img/Funcion alternativa.png"/></p>
 <p align="center"><img src="img/Configuracion analogica.png"/></p>
 
 <H3>6. LISTA DE COMPONENTES</H3>

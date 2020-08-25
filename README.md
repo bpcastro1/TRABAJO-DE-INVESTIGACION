@@ -57,6 +57,7 @@
 
 <H3>5. DIAGRAMAS</H3>
 <p align="center"><img src="Código fuente/Codigo fuente scratch.png"/></p>
+<p align="justify">PiCAR en lenguaje de programacion Scratch</b>
 <p align="center"><img src="img/Estructura basica de una GPIO.png"/></p>
 <p align="justify">Estructura basica de los puertos GPIO.</b>
 <p align="center"><img src="img/Entrada digital.png"/></p>

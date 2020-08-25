@@ -9,13 +9,13 @@
 
 <H3>2. OBJETIVOS</H3>
 <b>Objetivos Generales</b>
-<p align="justify">- Realizar un video explicando e identificando los temas relevantes a manera de un tutorial sobre el tema asignado.</p>
-<p align="justify">- Conocer los beneficios de usar Google Coral y TPU, mediante Google Colab.</p>
+<p align="justify">-	Conocer las cualidades y funcionalidades de los puertos GPIO que se encuentran en la Raspberry Pi. </p>
+<p align="justify">- Conocer e implementar en nuevas plataformas virtuales ejemplos funcionales para mostrar entrada y salida de datos en la Raspberry Pi. </p>
 <b>Objetivos Específicos</b>
-<p align="justify">- Emplear las herramientas que nos brinda Google Coral y Colab.</p>
-<p align="justify">- Analizar la plataforma Google Colab para el uso de TPU.</p>
-<p align="justify">- Implementar un ejemplo que verifique la diferencia de rendimiento de una CPU y una TPU.</p>
-<p align="justify">- Analizar las características de hardware y software de la tarjeta de desarrollo Google Coral.</p>
+<p align="justify">- Conocer las diferentes maneras de enviar datos de entrada y salida de la Raspberry Pi</p>
+<p align="justify">- Conocer los diferentes tipos de simuladores para ingreso y salida de datos.</p>
+<p align="justify">- Implementar un ejemplo funcional en entrada y salida por medio de la Raspberry Pi.</p>
+<p align="justify">- Conocer las funciones que presenta el simulador brainbox..</p>
 <H3>3. ESTADO DEL ARTE</H3>
 <b>Notas sobre el uso de Google Colaboratory en la educación de Inteligencia Artificial</b><br>
 <p align="justify">Un desafío en el diseño de cursos de inteligencia artificial moderna es elegir herramientas y marcos apropiados para ejemplos en clase y tareas. No sólo es importante que las herramientas sean capaces de cubrir la profundidad del material presentado en el curso, sino lo suficientemente simple como para que los instructores lo implementen en el aula y que los estudiantes mantengan el enfoque en el plan de estudios.<br><br> 

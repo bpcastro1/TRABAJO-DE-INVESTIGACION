@@ -193,7 +193,7 @@ Después de haber logrado los objetivos específicos se llegó a la conclusión 
 -	Conocer las diferentes formas en las cuales se puede hacer el ingreso y la salida de datos atreves de los puertos GPIO y mostrar la salida de la información mediante controladores o diferentes tipos de hardware adicional.<br><br>
 
 <H3>13. CRONOGRAMA</H3>
-<p align="center"><img src="img/cronograma.jpg"/></p>
+<p align="center"><img src="img/cronograma.jpeg"/></p>
 
 <H3>14. BIBLIOGRAFIA</H3>
 <p align="justify">- JORGE CACHO HERNÁNDEZ, «Raspberry Pi: tutoriales Servidor web, ownCloud y XBMC.,» 27 Enero 2008. [En línea]. Available: file:///C:/Users/home/Downloads/102190284-Raspberry-Pi-tutoriales-servidor-web-ownCloud-y-XBMC.pdf<br><br>

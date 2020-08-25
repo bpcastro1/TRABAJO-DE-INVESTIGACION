@@ -43,17 +43,17 @@
 <p align="center">-Imagen de la Raspberry Pi Física<br>Fuente: https://upload.wikimedia.org/wikipedia/commons/f/f1/Raspberry_Pi_4_Model_B</p>
 <H3>4.2 Hardware</H3>
 <p align="center"><img src="img/tabla.jpg"/></p>
-<p align="justify">-Versiones de la Raspberry Pi y sus características. Fuente: https://es.wikipedia.org/wiki/Raspberry_Pi</p>
+<p align="center">-Versiones de la Raspberry Pi y sus características.<br>Fuente: https://es.wikipedia.org/wiki/Raspberry_Pi</p>
 <H3>4.3 Scratch</H3>
 <p align="justify">Es un lenguaje de programación visual desarrollado por el Grupo Lifelong Kindergarten del MIT Media Lab. Su principal característica consiste en que permite el desarrollo de habilidades mentales mediante el aprendizaje de la programación sin tener conocimientos profundos sobre el código. </p>
 <p align="justify">Sus características ligadas al fácil entendimiento del pensamiento computacional han hecho que sea muy difundido en la educación de niños, adolescentes y adultos.</p>
 <p align="center"><img src="img/scrath.png"/></p>
-<p align="justify">-Interfaz Scratch 3.0 Fuente: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Scratch_3.0_GUI.png/245px-Scratch_3.0_GUI.png</p>
+<p align="center">-Interfaz Scratch 3.0<br>Fuente: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Scratch_3.0_GUI.png/245px-Scratch_3.0_GUI.png</p>
 <H3>4.4 Python</H3>
 <p align="justify">Es un lenguaje de programación interpretado cuya función es obtener legibilidad de su código. Se trata de un lenguaje de programación multiparadigma, ya que soporta orientación a objetos, programación imperativa y, en menor medida, programación funcional. Es un lenguaje interpretado, dinámico y multiplataforma.</p>
 <p align="justify">Es administrado por la Python Software Foundation. Posee una licencia de código abierto, denominada Python Software Foundation License.</p>
 <p align="center"><img src="img/python.jpg"/></p>
-<p align="justify">-Python Logo Fuente: https://blog.interdominios.com/wp-content/2008/python-lenguaje-de-programacion-1280x720.jpg</p>
+<p align="center">-Python Logo<br>Fuente: https://blog.interdominios.com/wp-content/2008/python-lenguaje-de-programacion-1280x720.jpg</p>
 
 <H3>5. DIAGRAMAS</H3>
 <p align="center"><img src="img/Estructura basica de una GPIO.png"/></p>

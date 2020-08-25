@@ -101,9 +101,7 @@ Los aceleradores como las TPU están diseñados para ofrecer un rendimiento muy 
 
 
 <H3>9. DESCRIPCION DE PRERREQUISITOS Y CONFIGURACION</H3>
-<p align="justify">
-</p>
-
+<p align="justify">Para poder utilizar al 100% esta paltaforma de simulacion es necesiro creare un acuenta en la cual se guardara todos nuestros proyectos y cambios que vayamos realizando , y tambien es necesario tener un conocimiento claro acerca de las compuertas y señales logicas ya que en esta plataforma se utilizan estas mismas para poder mandar un a señal a la raspberry pi</p>
 <H3>10. APORTACIONES</H3>
 <b>Compuertas Lógicas</b>
 <p align="justify">son circuitos electrónicos conformados internamente por transistores que se encuentran con arreglos especiales con los que otorgan señales de voltaje como resultado o una salida de forma booleana, están obtenidos por operaciones lógicas binarias (suma, multiplicación). También niegan, afirman, incluyen o excluyen según sus propiedades lógicas. Estas compuertas se pueden aplicar en otras áreas de la ciencia como mecánica, hidráulica o neumática.</p>

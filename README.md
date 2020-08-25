@@ -40,7 +40,7 @@
 <p align="justify">Existen dos versiones de Python en Raspbian, Python 2 y 3. La versión numero 2 termino su desarrollo en 2010, pero mantiene su soporte a manera de legado, para aquellas aplicaciones que ya fueron desarrolladas bajo esta versión, por ende, se recomienda utilizar Python 3, el cual es la versión que se encuentra actualmente en desarrollo.</p>
 
 <p align="center"><img src="img/fisica.jpg"/></p>
-<p align="justify">-Imagen de la Raspberry Pi Física Fuente: https://upload.wikimedia.org/wikipedia/commons/f/f1/Raspberry_Pi_4_Model_B</p>
+<p align="center">-Imagen de la Raspberry Pi Física<br>Fuente: https://upload.wikimedia.org/wikipedia/commons/f/f1/Raspberry_Pi_4_Model_B</p>
 <H3>4.2 Hardware</H3>
 <p align="center"><img src="img/tabla.jpg"/></p>
 <p align="justify">-Versiones de la Raspberry Pi y sus características. Fuente: https://es.wikipedia.org/wiki/Raspberry_Pi</p>

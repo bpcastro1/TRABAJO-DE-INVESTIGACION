@@ -95,62 +95,26 @@ Los aceleradores como las TPU están diseñados para ofrecer un rendimiento muy 
 <p align="center"><img src="img/1.jpg"/></p>
 <H3>7. MAPA DE VARIABLES</H3>
 <p align="center"><img src="img/3.png"/></p>
-<p align="center"><img src="img/4.png"/></p>
+<p align="center"><img src="img/c.png"/></p>
 
 <H3>8. EXPLICACION DEL CODIGO FUENTE</H3>
-<p align="justify">Se hara un analisis en la rapidez que se genera en Google Colaba partir de la ejecución por medio de CPU y TPU.</p>
-<p align="center"><b>CPU</b></p>
-<p align="justify"><b>1. Lectura de Datos</b></p>
-<p align="justify">Se hará una lectura de dos archivos que estarán dentro de una ruta, ubicada en Google Drive en la cuenta personal de quien lo compile al código.</p>
-<p align="center"><img src="img/c1.png"/></p>
-<p align="justify"><b>2. Acceso a datos en Google Drive (Importación y permisos)</b></p>
-<p align="justify">Se realizará una importación por medio de la ruta a Google Drive y la Unidad personal de nuestra cuenta. Generará un link el cual nos dará un código de autorización, el cual lo ingresaremos y deberá salirnos “Mounted at (ruta)” en caso de no tener ningún error.</p>
-<p align="center"><img src="img/c2.png"/></p>
-<p align="justify"><b>3. Reshape de datos para garantizar matrices (No vectores)</b></p>
-<p align="justify">Se pondrá los valores en múltiplos de 128 para que sirva en la TPU, pero en este caso deberemos ubicar de igual manera los valores en la CPU, para no generar un favoritismo al momento de realizar la compilación y la comparación entre cada uno de los hardware.</p>
-<p align="center"><img src="img/c3.png"/></p>
-<p align="justify"><b>4.	Creación del modelo con Tensor Flow 2 + Librería Keras</b></p>
-<p align="justify">Se genera 3 capas, en 3 fases diferentes las cuales llevaran ciertos valores. En este caso será Normalización, Conv2D, MaxPooling2D, Dropout. El cual Conv2D llevara diferentes valores en cada una de las fases. Para al final aplanar mediante Flatten el numero de filtros de Dense, al igual que en la salida Dropout.</p>
-<p align="center"><img src="img/c4.png"/></p>
-<p align="justify"><b>5.	Test de velocidad e impresión</b></p>
-<p align="justify">Mediante la función de Python “timeit” se realizará que se guarde en la variable el tiempo que se demoro para poder ejecutar mediante la CPU nuestro código y para finalizar un print de lo que es el tiempo de demora en segundos.</p>
-<p align="center"><img src="img/c5.png"/></p>
 
-<p align="center"><b>TPU</b></p>
-<p align="justify"><b>1. Lectura de Datos</b></p>
-<p align="justify">Se hará una lectura de dos archivos que estarán dentro de una ruta, ubicada en Google Drive en la cuenta personal de quien lo compile al código.</p>
-<p align="center"><img src="img/c1.png"/></p>
-<p align="justify"><b>2. Acceso a datos en Google Drive (Importación y permisos)</b></p>
-<p align="justify">Se realizará una importación por medio de la ruta a Google Drive y la Unidad personal de nuestra cuenta. Generará un link el cual nos dará un código de autorización, el cual lo ingresaremos y deberá salirnos “Mounted at (ruta)” en caso de no tener ningún error.</p>
-<p align="center"><img src="img/c2.png"/></p>
-<p align="justify"><b>3. Reshape de datos para garantizar matrices (No vectores)</b></p>
-<p align="justify">Se pondrá los valores en múltiplos de 128 para que sirva en la TPU, debemos recordar que usamos los mismos valores para la configuracion de la CPU, por lo que vamos a realizar una comparacion de velocidades al ejecutar cada una de ellas. Recordar que esta puesto en 28x28 pixeles de escalas de grises.</p>
-<p align="center"><img src="img/c3.png"/></p>
-<p align="justify"><b>4.	Configuracion TPU</b></p>
-<p align="justify">Se aplica la versión de TensorFlow 2 para poder resolver la compilación de nuestro código y además se agregaran las 3 capas en 3 etapas de la librería Keras con diferentes valores en la capa Conv2D.</p>
-<p align="center"><img src="img/t1.png"/></p>
-<p align="center"><img src="img/t2.png"/></p>
-<p align="justify"><b>5.	Test de velocidad e impresión</b></p>
-<p align="justify">Mediante la función de Python “timeit” se realizará que se guarde en la variable el tiempo que se demoro para poder ejecutar mediante la TPU nuestro código y para finalizar un print de lo que es el tiempo de demora en segundos. Esto se realizara a nivel de un float de 32 bytes.</p>
-<p align="center"><img src="img/t3.png"/></p>
 
 <H3>9. DESCRIPCION DE PRERREQUISITOS Y CONFIGURACION</H3>
-<p align="justify">Se necesita una cuenta de Google colab donde nosotros podremos guardar nuestros códigos y permitir que nuestros compañeros puedan acceder y modificar nuestros diferentes códigos, la cual puede ser una cuenta institucional o una cuenta personal donde solo debemos llenar nuestra información y posteriormente elegir nuestro tipo de código que queremos realizar (Python 2 o Python3) nuestro tipo de procesador que queramos (CPU, GPU o TPU) y listo ya podemos usar Google colab al 100%</p>
+<p align="justify">
+</p>
 
 <H3>10. APORTACIONES</H3>
-<b>SOM</b>
-<p align="justify">Coral System-on-Module (SoM) es un sistema completamente integrado que lo ayuda a construir dispositivos integrados que exigen inferencias de aprendizaje automático (ML) rápidas. Contiene el sistema en chip (SoC) iMX 8M de NXP, memoria eMMC, LPDDR4 RAM, Wi-Fi y Bluetooth, pero su potencia única proviene del coprocesador Edge TPU de Google para la inferencia de aprendizaje automático de alta velocidad. (Google Coral, 2019)</p>
-<b>Edge TPU</b>
-<p align="justify">Edge TPU permite desplegar inferencias de aprendizaje automático de alta calidad en el perímetro por medio de diversos productos de producción y prototipado de Coral.</p>
-<p align="justify">La plataforma de aprendizaje automático en el perímetro de Coral refuerza las TPU de Google Cloud y Cloud IoT para proporcionar una infraestructura completa (de hardware y software, y de la nube al perímetro) que facilita el despliegue de las soluciones basadas en IA de los clientes. La plataforma de Coral no solo incluye el entorno de programación de código abierto TensorFlow Lite, sino que también proporciona un kit de herramientas para desarrolladores que te permite compilar tus propios modelos o volver a preparar varios modelos de IA de Google para Edge TPU. De esta manera, se aúnan nuestros conocimientos avanzados tanto en IA como en hardware. (Merino, 2019)</p>
-<p align="justify">Edge TPU complementa las CPU, GPU y FPGA, además de otras soluciones ASIC, a fin de ejecutar la IA en el perímetro.</p>
-
-<b>Python</b>
-<p align="justify">Python es un lenguaje de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código. Se trata de un lenguaje de programación multiparadigma, ya que soporta orientación a objetos, programación imperativa y, en menor medida, programación funcional. Es un lenguaje interpretado, dinámico y multiplataforma.Es administrado por la Python Software Foundation. Posee una licencia de código abierto, denominada Python Software Foundation License, que es compatible con la Licencia pública general de GNU a partir de la versión 2.1.1, e incompatible en ciertas versiones anteriores(Knowlton, Jim (2009)).</p>
-
-<b>Edge Computing</b>
-<p align="justify">El edge computing es un tipo de informática que ocurre en la ubicación física del usuario, de la fuente de datos, o cerca de ellas. Al establecer servicios de computación cerca de esas ubicaciones, los usuarios obtienen servicios más rápidos y confiables, y las empresas aprovechan la flexibilidad del cloud computing híbrido. Con el edge computing, una empresa puede usar y distribuir un conjunto común de recursos en una gran cantidad de ubicaciones. (Merino, 2019)</p>
-
+<b>Compuertas Lógicas</b>
+<p align="justify">son circuitos electrónicos conformados internamente por transistores que se encuentran con arreglos especiales con los que otorgan señales de voltaje como resultado o una salida de forma booleana, están obtenidos por operaciones lógicas binarias (suma, multiplicación). También niegan, afirman, incluyen o excluyen según sus propiedades lógicas. Estas compuertas se pueden aplicar en otras áreas de la ciencia como mecánica, hidráulica o neumática.</p>
+Existen diferentes tipos de compuertas y algunas de estas son más complejas, con la posibilidad de ser simuladas por compuertas más sencillas. Todas estas tienen tablas de verdad que explican los comportamientos en los resultados que otorga, dependiendo del valor booleano que tenga en cada una de sus entradas.</p>
+Trabajan en dos estado, "1" o "0", los cuales pueden asignarse a la lógica positiva o lógica negativa. El estado 1 tiene un valor de 5v como máximo y el estado 0 tiene un valor de 0v como mínimo y existiendo un umbral entre estos dos estados donde el resultado puede variar sin saber con exactitud la salida que nos entregara. Las lógicas se explican a continuación:</p>
+La lógica positiva es aquella que con una señal en alto se acciona, representando un 1 binario y con una señal en bajo se desactiva. representado un 0 binario.</p>
+La lógica negativa proporciona los resultados inversamente, una señal en alto se representa con un 0 binario y una señal en bajo se representa con un 1 binario.</p>
+<b>Señales analogicas</b>
+<p align="justify">Entendemos como señal analógica un tipo de señal formada por una función matemática continua en la cual hay que tener en cuenta que la variable se encuentra representada por el periodo y la amplitud teniendo como base el tiempo. Se genera con un fenómeno de tipo electromagnético. Hay distintas magnitudes físicas e hidráulicas que pueden encajar como medio para transmitir la señal Algunas de las más comunes son la temperatura térmica o la tensión eléctrica, entre otras. Pero también es importante saber que hay muchas señales analógicas a nuestro alrededor. El mundo nos rodea con señales de este tipo en las que la variación siempre coincide en un aspecto: es continua. Ocurre con la energía o con la luz, por mencionar solo algunos de los ejemplos que se pueden encontrar dentro de la naturaleza. Pero también hay otros tipos de señales analógicas, como las que están vinculadas a la voz y el sonido.</p>
+<b>Transistor</b>
+<p align="justify">El transistor es un componente electrónico constituido por materiales semiconductores que prácticamente revolucionó todos los aparatos electrónicos sin excepción alguna, ya que gracias a sus pequeñas dimensiones y sus múltiples funcionalidades logró disminuir los tamaños de todo aparato considerablemente. Gracias a los transistores también se logró la construcción de circuitos integrados, es decir “Chips con infinidad de transistores capaces de tener diversos circuitos eléctricos y electrónicos en encapsulados plásticos de tan solo unos pocos centímetros”</p>
 <H3>11. CONCLUSIONES</H3>
 <p align="justify">Realizada la investigación sobre los puertos de entrada y salida en la Raspberry Pi  y además la simulación en brainbox, se llegó a las siguientes conclusiones::<br>
 -	Mediante la investigación y la implementación del ejemplo funcional en la plataforma de barín box se logró determinar varios de las herramientas que la plataforma presenta para la simulación de circuito y otros temas.<br>

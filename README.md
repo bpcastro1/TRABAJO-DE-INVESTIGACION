@@ -77,49 +77,22 @@ Los aceleradores como las TPU están diseñados para ofrecer un rendimiento muy 
 <p align="center"><img src="img/diagrama2.png"/></p>
 
 <H3>6. LISTA DE COMPONENTES</H3>
-<p align="justify"><b>Google Coral</b></p>
-<p align="justify">- Edge TPU System-on-Module (SoM)<br>
-- SoC NXP i.MX 8M (brazo de cuatro núcleos Cortex-A53, más Cortex-M4F)<br>
-- Coprocesador acelerador Google Edge TPU ML<br>
-- Coprocesador criptográfico<br>
-- Wi-Fi 2x2 MIMO (802.11b / g / n / ac 2.4 / 5 GHz)<br>
-- Bluetooth 4.2<br>
-- EMMC de 8 GB<br>
-- 1 GB LPDDR4<br>
-- Conexiones USB<br>
-- Puerto de alimentación USB tipo C (5 V CC)<br>
-- Puerto USB 3.0 Tipo-C OTG<br>
-- Puerto host USB 3.0 tipo A<br>
-- Puerto de consola serie USB 2.0 Micro-B<br>
-- Conexiones de audio<br>
-- Conector de audio de 3,5 mm (compatible con CTIA)<br>
-- Micrófono digital PDM (x2)<br>
-- Terminal de 4 pines de 2,54 mm para altavoces estéreo<br>
-- Conexiones de video<br>
-- HDMI 2.0a (tamaño completo)<br>
-- Conector FFC de 39 pines para pantalla MIPI DSI (4 carriles)<br>
-- Conector FFC de 24 pines para cámara MIPI CSI-2 (4 carriles)<br>
-- Ranura para tarjeta microSD<br>
-- Puerto Gigabit Ethernet<br>
-- Cabecera de expansión GPIO de 40 pines<br>
-- Admite Mendel Linux (derivado de Debian)<br></p>
-<p align="center"><img src="img/googlecoral.png"/></p>
-<p align="justify"><b>Google Colab</b></p>
-<p align="justify">- IPython Notebook<br>
-- Celdas<br>
-- Kernel<br>
-- Librerías<br>
-- VM de Google Compute Engine (la infraestructura de máquinas virtuales de Google en la nube)<br>
-- 12 GB de RAM<br>
-- 50 GB de almancenamiento en disco disponibles para el uso<br>
-- Tiempo-Maximo 12 horas<br>
-- Python 2<br>
-- Python 3<br>
-- GPU<br>
-- CPU<br>
-- TPU<br></p>
-<p align="center"><img src="img/googlecolab.png"/></p>
-
+<p align="justify"><b>Raspberry Pi</b></p>
+<p align="justify">•	CPU + GPU: Broadcom BCM2837B0, Cortex-A53 (ARMv8) 64-bit SoC @ 1.4GHz</p>
+•	RAM: 1GB LPDDR2 SDRAM</p>
+•	Wi-Fi + Bluetooth: 2.4GHz y 5GHz IEEE 802.11.b/g/n/ac, Bluetooth 4.2, BLE</p>
+•	Ethernet: Gigabit Ethernet sobre USB 2.0 (300 Mbps)</p>
+•	GPIO de 40 pines</p>
+•	HDMI</p>
+•	4 puertos USB 2.0</p>
+•	Puerto CSI para conectar una cámara.</p>
+•	Puerto DSI para conectar una pantalla táctil</p>
+•	Salida de audio estéreo y vídeo compuesto</p>
+•	Micro-SD</p>
+•	Power-over-Ethernet (PoE)</p>
+<p align="center"><img src="img/2.jpg"/></p>
+<p align="justify"><b>Brainbox Simulator</b></p>
+<p align="center"><img src="img/1.jpg"/></p>
 <H3>7. MAPA DE VARIABLES</H3>
 <p align="center"><img src="img/variable1.png"/></p>
 <p align="center"><img src="img/variable2.png"/></p>

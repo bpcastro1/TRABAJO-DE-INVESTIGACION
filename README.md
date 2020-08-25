@@ -94,8 +94,8 @@ Los aceleradores como las TPU están diseñados para ofrecer un rendimiento muy 
 <p align="justify"><b>Brainbox Simulator</b></p>
 <p align="center"><img src="img/1.jpg"/></p>
 <H3>7. MAPA DE VARIABLES</H3>
-<p align="center"><img src="img/variable1.png"/></p>
-<p align="center"><img src="img/variable2.png"/></p>
+<p align="center"><img src="img/3.png"/></p>
+<p align="center"><img src="img/4.png"/></p>
 
 <H3>8. EXPLICACION DEL CODIGO FUENTE</H3>
 <p align="justify">Se hara un analisis en la rapidez que se genera en Google Colaba partir de la ejecución por medio de CPU y TPU.</p>

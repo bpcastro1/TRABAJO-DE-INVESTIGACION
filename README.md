@@ -73,8 +73,11 @@ Los aceleradores como las TPU están diseñados para ofrecer un rendimiento muy 
 <p align="justify">Sirve como medio para simular o experimentar con machine learning y Deep learning, pero sin tener que ir por costos de procesamiento de la nube, además el ambiente de trabajo ya tiene librerías instaladas las cuales están listas para utilizar, una de ellas antes mencionada es TensorFlow.</p>
 
 <H3>5. DIAGRAMAS</H3>
-<p align="center"><img src="img/diagrama1.png"/></p>
-<p align="center"><img src="img/diagrama2.png"/></p>
+<p align="center"><img src="img/Estructura basica de una GPIO.png"/></p>
+<p align="center"><img src="img/entrada digital.png"/></p>
+<p align="center"><img src="img/salida digital.png"/></p>
+<p align="center"><img src="img/funciones alternativas.png"/></p>
+<p align="center"><img src="img/configuracion analogica.png"/></p>
 
 <H3>6. LISTA DE COMPONENTES</H3>
 <p align="justify"><b>Raspberry Pi</b></p>

@@ -122,9 +122,9 @@ Después de haber logrado los objetivos específicos se llegó a la conclusión 
 <p align="center"><img src="img/cronograma.jpeg"/></p>
 
 <H3>14. BIBLIOGRAFIA</H3>
-- Mecafenix, I. (8 de Agosto de 2019). Ingeniería Mecafenix. Obtenido de Transistor: https://www.ingmecafenix.com/electronica/el-transistor/
-- Universidad Internacional de Valencia. (21 de marzo de 2018). Ciencia y tecnologia. Obtenido de Todo lo que debes saber sobre la señal analógica: https://www.universidadviu.com/lo-debes-saber-la-senal-analogica/
-velasco, R. (2 de Julio de 2018). Hardzone. Obtenido de Analisis raspberry pi 3 : https://hardzone.es/reviews/perifericos/analisis-raspberry-pi-3-modelo-b/
+<p align="justify">- Mecafenix, I. (8 de Agosto de 2019). Ingeniería Mecafenix. Obtenido de Transistor: https://www.ingmecafenix.com/electronica/el-transistor/<br><br>
+ <p align="justify">- Universidad Internacional de Valencia. (21 de marzo de 2018). Ciencia y tecnologia. Obtenido de Todo lo que debes saber sobre la señal analógica: https://www.universidadviu.com/lo-debes-saber-la-senal-analogica/<br><br>
+<p align="justify">- velasco, R. (2 de Julio de 2018). Hardzone. Obtenido de Analisis raspberry pi 3 : https://hardzone.es/reviews/perifericos/analisis-raspberry-pi-3-modelo-b/<br><br>
 <p align="justify">- JORGE CACHO HERNÁNDEZ, «Raspberry Pi: tutoriales Servidor web, ownCloud y XBMC.,» 27 Enero 2008. [En línea]. Available: file:///C:/Users/home/Downloads/102190284-Raspberry-Pi-tutoriales-servidor-web-ownCloud-y-XBMC.pdf<br><br>
 - C. Muñoz, «Historia de la informatica “Raspberry Pi,» Blog sobre Historia de la Informática, 18 Diciembre 2013. [En línea]. Available: https://histinf.blogs.upv.es/2013/12/18/raspberry-pi/#:~:text=Raspberry%20PI%20es%20una%20placa,de%20la%20inform%C3%A1tica%20en%20las<br><br>
  - C. Muñoz, «Historia de la informatica “Raspberry Pi,» Blog sobre Historia de la Informática, 18 Diciembre 2013. [En línea]. Available: https://histinf.blogs.upv.es/2013/12/18/raspberry-pi/#:~:text=Raspberry%20PI%20es%20una%20placa,de%20la%20inform%C3%A1tica%20en%20las<br><br>
